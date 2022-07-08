@@ -89,7 +89,8 @@ public class Grid : MonoBehaviour
     public IEnumerator UnitClicked(Unit clickedUnit)
     {
         var unitsToBeDestroyed = SelectUnitsToBeDestroyed(clickedUnit);
-        
+
+        if (unitsToBeDestroyed.Count < 2) yield break;
         PlayerPrefs.SetInt("Enabled", 0);
         RegisterMove();
         
