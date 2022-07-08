@@ -1,0 +1,6 @@
+PROJE 
+Referans videosunda gösterildiği gibi bir oyun geliştirmeni bekliyoruz. Oyunu geliştirirken dikkat etmen gereken kurallar:
+
+* Küpler patladığı zaman particle ve ses efekti oynamalı.
+* Toplanan küpler goal’e çarptığı zaman particle ve ses efekti oynamalı.
+* Bitmiş projenin çıktısı iOS ya da Android telefonlarda çalışabilmeli.
